@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# ✨ Ritika Chaudhary – Developer Portfolio
 
-## Project info
+Welcome to the source code of my personal **portfolio website**, built to showcase my skills, projects, and experiences in web development, data science, and machine learning.
 
-**URL**: https://lovable.dev/projects/7cbcefe4-9616-4ed6-b4d3-9f50bf137c28
+🌐 **Live Site:** [View Portfolio](https://lovable.dev/projects/7cbcefe4-9616-4ed6-b4d3-9f50bf137c28)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📌 About This Project
 
-**Use Lovable**
+This portfolio was designed to:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7cbcefe4-9616-4ed6-b4d3-9f50bf137c28) and start prompting.
+- Share my technical journey and passions  
+- Highlight my projects with code links  
+- Showcase internship experiences and certifications  
+- Allow visitors to contact me or schedule a call  
+- Provide a clean, modern UI with smooth interactions  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚡ Vite – Fast build tool  
+- ⚛️ React + TypeScript  
+- 💨 Tailwind CSS – Utility-first styling  
+- 🧱 shadcn/ui – Accessible components  
+- AI-assisted UI & deployment  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Getting Started (Local Setup)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+To run the project locally:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 1. Clone the repository
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone <your_git_repo_url>
+cd <your_project_folder>
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install dependencies
+```bash
+npm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 3. Start the development server
+```bash
+npm run dev
+```
+Open http://localhost:5173 to view the portfolio locally.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
+To deploy this Vite + React portfolio on Render, follow these steps:
 
-## What technologies are used for this project?
+### 📁 1. Push to GitHub
+Make sure your project is version-controlled and pushed to a GitHub repository.
 
-This project is built with:
+### ⚙️ 2. Configure vite.config.ts
+Ensure vite.config.ts has the correct base path only if you're using a subdirectory deployment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+For most Render setups (main domain), you can leave it as:
 
-## How can I deploy this project?
+```ts
+// vite.config.ts
+export default defineConfig({
+  plugins: [react()],
+});
+```
 
-Simply open [Lovable](https://lovable.dev/projects/7cbcefe4-9616-4ed6-b4d3-9f50bf137c28) and click on Share -> Publish.
+### 🧪 3. Add a build script in package.json
+Render needs a build and start script:
 
-## Can I connect a custom domain to my Lovable project?
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
+```
+No *start* script is required if you're using Static Site hosting.
 
-Yes, you can!
+### 🌐 4. Set Up on Render
+- Go to https://dashboard.render.com
+- Click "New → Static Site"
+- Connect your GitHub repo
+- Fill in the details:
+-- Name: portfolio
+-- Build Command: npm run build
+-- Publish Directory: dist
+- Click "Create Static Site"
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Render will auto-build and deploy your site.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*🛠 Optional: Enable Auto-Deploy
+You can enable "Auto Deploy" from Render so it rebuilds on every GitHub commit.*
+
+---
+
+## 💡 Features
+
+- 📄 Resume & certifications display
+- 🛠️ Projects with GitHub links
+- 📊 Internship experience cards
+- ✉️ Contact form with email integration
+- 📅 Calendly integration for call scheduling
+- 🌙 Responsive design with soft gradients
+
+---
