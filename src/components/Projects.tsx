@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
     },
     {
       title: "Operation & Metric Analytics",
-      description: "Performed data analysis on Instagram user behavior to identify trends in engagement and content performance.",
+      description: "Analyzed operational data and user metrics using advanced SQL to uncover trends and investigate spikes in engagement.",
       image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1750615666/Operation_ehmzv0.png",
       tags: ["Data Analysis", "Feature Engineering", "SQL", "Data Preprocessing"],
       github: "https://github.com/ritika-chaudhary-21/Data_Analytics_Projects/tree/main/Operation%20Analytics%20and%20Investigating%20Metric%20Spikes"
