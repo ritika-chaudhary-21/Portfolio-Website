@@ -2,7 +2,7 @@
 
 Welcome to the source code of my personal **portfolio website**, built to showcase my skills, projects, and experiences in web development, data science, and machine learning.
 
-🌐 **Live Site:** [View Portfolio](https://lovable.dev/projects/7cbcefe4-9616-4ed6-b4d3-9f50bf137c28)
+🌐 **Live Site:** [View Portfolio](https://ritikas-portfolio-website.onrender.com/)
 
 ---
 
