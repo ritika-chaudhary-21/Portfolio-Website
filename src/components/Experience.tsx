@@ -171,7 +171,7 @@ const Experience: React.FC = () => {
               boundaries of what's possible with data.
             </p>
             <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-              <a href="https://drive.google.com/file/d/1aJyvf4K5zmTAj8YmUxclPiZsZt_BuPd2/view?usp=sharing">Download Resume</a>
+              <a href="https://drive.google.com/file/d/1rslRsStqlG536DKyqDj04Lkjdmdb3yJ5/view?usp=sharing">Download Resume</a>
             </button>
           </div>
         </div>
