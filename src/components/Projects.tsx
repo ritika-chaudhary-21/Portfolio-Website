@@ -5,6 +5,13 @@ import { Briefcase, Link, Code } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: "Twitter Listening Bot with n8n",
+      description: "Automate workflow to scrape tweets, deduplicate with airtable and send links and tweets to Discord Server.",
+      image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1751049819/ChatGPT_Image_Jun_27_2025_11_53_59_PM_vnvgf9.png", // Optional: Replace with actual screenshot
+      tags: ["n8n", "Automation", "Web Scraping", "Puppeteer", "Discord", "Airtable"],
+      github: "https://github.com/ritika-chaudhary-21/no-api-twitter-tracker-n8n"
+    },
+    {
       title: "Movie Genre Classifier",
       description: "Built a machine learning model to classify movie genres based on plot descriptions using NLP and deployed it with Streamlit.",
       image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1751049819/ChatGPT_Image_Jun_27_2025_11_53_59_PM_vnvgf9.png",
