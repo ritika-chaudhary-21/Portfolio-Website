@@ -27,7 +27,7 @@ const About: React.FC = () => {
               </div>
               
               <p className="text-slate-600 leading-relaxed mb-6">
-                I’m a third-year Computer Science and Technology student, specializing in Artificial Intelligence and Machine Learning. Over the past couple of years, I’ve explored various areas of tech — from building web interfaces to diving into data analysis and experimenting with machine learning models.</p>
+                I’m a final-year Computer Science and Technology student, specializing in Artificial Intelligence and Machine Learning. Over the past couple of years, I’ve explored various areas of tech — from building web interfaces to diving into data analysis and experimenting with machine learning models.</p>
               <p className="text-slate-600 leading-relaxed mb-6">
                During my learning journey, I’ve worked on projects using tools like Python, Pandas, SQL, and basic machine learning libraries to analyze datasets and draw insights. I also have hands-on experience with frontend technologies like HTML, CSS, JavaScript, and React. While I’ve explored multiple domains, my current focus is on strengthening my backend development skills and mastering Data Structures and Algorithms.</p>
               <p className="text-slate-600 leading-relaxed mb-6">
