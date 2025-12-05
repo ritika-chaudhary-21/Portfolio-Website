@@ -5,6 +5,13 @@ import { Briefcase, Link, Code } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: "OutfitFlex Wardrobe",
+      description: "An AI-powered virtual wardrobe app that allows users to store clothing images, analyze outfits, and receive personalized styling recommendations.",
+      image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1750615669/outfitflex_zes6gs.webp",
+      tags: ["Machine Learning", "App Development", "React", "TypeScript", "Python"],
+      github: "https://github.com/ritika-chaudhary-21/OutfitFlex-App"
+    },
+    {
       title: "Twitter Listening Bot with n8n",
       description: "Automate workflow to scrape tweets, deduplicate with airtable and send links and tweets to Discord Server.",
       image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1753185059/twitter-workflow_krbd4x.png", // Optional: Replace with actual screenshot
@@ -31,13 +38,6 @@ const Projects: React.FC = () => {
       image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1750615669/iris_y8yody.jpg",
       tags: ["Python", "Time Series", "DAX"],
       github: "https://github.com/ritika-chaudhary-21/Machine-Learning-Projects/tree/main/Iris%20Flower%20Prediction"
-    },
-    {
-      title: "OutfitFlex Wardrobe",
-      description: "An AI-powered virtual wardrobe app that allows users to store clothing images, analyze outfits, and receive personalized styling recommendations.",
-      image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1750615669/outfitflex_zes6gs.webp",
-      tags: ["Machine Learning", "App Development", "React", "TypeScript", "Python"],
-      github: "https://github.com/ritika-chaudhary-21/OutfitFlex-App"
     },
     {
       title: "Subscription Churn Prediction",
