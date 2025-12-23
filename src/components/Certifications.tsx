@@ -5,6 +5,15 @@ import { Star, Check } from 'lucide-react';
 const Certifications: React.FC = () => {
   const certifications = [
     {
+      title: "Data Fundamentals",
+      issuer: "IBM SkillsBuild",
+      date: "2025",
+      skills: ["Clean Data","Data Analysis","Data Tools","Data Visualizations"],
+      image: "https://res.cloudinary.com/duhe2ksmv/image/upload/v1766500751/Screenshot_2025-12-23_200601_fmb3oc.png",
+      verified: true,
+      gradient: "gradient-pink-purple"
+    },
+    {
       title: "Business Analyst Certification",
       issuer: "Agile Enterprise Coach, London",
       date: "2025",
