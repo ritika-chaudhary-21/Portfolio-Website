@@ -72,19 +72,19 @@ const Contact: React.FC = () => {
       url: "https://github.com/ritika-chaudhary-21",
       icon: <SiGithub />,
       color: "from-gray-700 to-gray-800"
-    }//,
-    //{
-      //name: "Leetcode",
-      //url: "https://leetcode.com/u/ritikarc2105/",
-      //icon: <SiLeetcode />,
-      //color: "from-yellow-500 to-orange-500"
-    //},
-    //{
-     // name: "Hackerrank",
-     // url: "https://www.hackerrank.com/profile/ritikarc2105",
-     // icon: <SiHackerrank />,
-     // color: "from-[#2EC866] to-[#29B35E]"
-    //}
+    },
+    {
+      name: "Leetcode",
+      url: "https://leetcode.com/u/ritikarc2105/",
+      icon: <SiLeetcode />,
+      color: "from-yellow-500 to-orange-500"
+    },
+    {
+      name: "Hackerrank",
+      url: "https://www.hackerrank.com/profile/ritikarc2105",
+      icon: <SiHackerrank />,
+      color: "from-[#2EC866] to-[#29B35E]"
+    }
   ];
 
   return (
