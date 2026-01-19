@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = ({ onScrollToNext }) => {
               <div className="absolute inset-0 bg-gradient-to-br from-slate-100 to-slate-200 rounded-full shadow-xl"></div>
               <div className="absolute inset-2 bg-white rounded-full shadow-inner flex items-center justify-center border border-slate-100">
                 <img 
-                  src="/Photo.jpg" 
+                  src="/Photo.jpeg" 
                   alt="Ritika Chaudhary" 
                   className="w-36 h-36 rounded-full object-cover"
                 />
